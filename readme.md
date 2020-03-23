@@ -1,57 +1,69 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="public/images/logo.png" alt="Project logo"></a>
 </p>
 
-## About Laravel
+<h3 align="center">VueBnb</h3>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+<div align="center">
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
+  ![GitHub issues](https://img.shields.io/github/issues/vcjpierre/fullstack-laravel-vuejs)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/vcjpierre/fullstack-laravel-vuejs.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation gives you a complete toolset required to build any application with which you are tasked.
+</div>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is in-depth and complete, making it a breeze to get started learning the framework.
+<p align="center"> Vuebnb: Full-Stack Vue.js and Laravel App.
+    <br> 
+</p>
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+## 📝 Table of Contents
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Built Using](#built_using)
+- [Credits](#credits)
 
-## Laravel Sponsors
+## 🧐 About <a name = "about"></a>
+Vuebnb, a simple clone of Airbnb.
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
+## 🏁 Getting Started <a name = "getting_started"></a>
+These instructions will get you a copy of the project up and running on your local machine for development.
 
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](https://www.fragrantica.com)
+### Prerequisites
+Clone the repository
 
-## Contributing
+```
+git clone https://github.com/vcjpierre/fullstack-laravel-vuejs.git
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+```
+cd fullstack-laravel-vuejs
+```
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Installation
+Install all dependencies
 
-## License
+```
+composer install
+npm install
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Create your DB and put your environments variables in the file `.env`
 
+Then run migrations and seeders
+
+```
+php artisan migrate
+php artisan db:seed
+```
+
+## ⛏️ Built Using <a name = "built_using"></a>
+- [Laravel](https://laravel.com//) - PHP Framework
+- [VueJs](https://vuejs.org/) - Web Framework
+
+
+## 🎉 Credits <a name = "credits"></a>
+- https://vuejsdevelopers.com/2017/11/20/vuebnb-full-stack-laravel/
