@@ -20,7 +20,7 @@
     "dotenv": "^4.0.0",
     "font-awesome": "^4.7.0",
     "ftp": "^0.3.10",
-    "laravel-mix": "^5.0.1",
+    "laravel-mix": "^5.0.7",
     "open-sans-all": "^0.1.2",
     "recursive-readdir": "^2.2.1",
     "vue": "^2.5.3",
