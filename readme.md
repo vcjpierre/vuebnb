@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="public/images/logo.png" alt="Project logo"></a>
+ <img width=200px height=200px src="https://raw.githubusercontent.com/vcjpierre/vuebnb/refs/heads/master/public/images/logo.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">VueBnb</h3>
